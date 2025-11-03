@@ -21,7 +21,7 @@ CREATE TABLE products (
 
 CREATE TABLE product_img (
     id SERIAL PRIMARY KEY,
-    image VARCHAR(150),
+    image TEXT,
     product_id BIGINT,
     FOREIGN KEY(product_id) REFERENCES products(id),
     created_at TIMESTAMP DEFAULT now(),
