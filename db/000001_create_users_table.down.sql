@@ -1,3 +1,2 @@
-DROP TABLE users;
-
 DROP TABLE profile;
+DROP TABLE users;
